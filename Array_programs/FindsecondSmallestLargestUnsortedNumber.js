@@ -22,13 +22,3 @@ arrayOfNumber.splice(arrayOfNumber.indexOf(Math.max.apply(-Infinity,arrayOfNumbe
  arrayOfNumber.splice(arrayOfNumber.indexOf(Math.min.apply(Infinity,arrayOfNumber)), 1);
  let second_min = Math.min.apply(null,arrayOfNumber)
  console.log("2nd smallest element is : "+second_min+"\n");
-
-
-
-
-
-
-
-
-
-
